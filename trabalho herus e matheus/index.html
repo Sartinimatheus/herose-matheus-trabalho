@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça o Festival Pixel, evento geek com games, cosplay e tecnologia.">
+    <title>Nexus Summit | Conferência de inteligência artificial e futuro digital.</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">🎮Nexus Summit  </a>
+        <div class="menu">
+            <a href="index.html">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#programacao">Programação</a>
+            <a href="inscricao.html">Participar</a>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="hero-content">
+            <span class="tag">Inteligência artificial e futuro digital. TE ESPERA!</span>
+            <h1>Conferência de inteligência artificial e futuro digital!</h1>
+            <p>
+                Um encontro de games, tecnologia, cosplay e diversão.
+                Venha fazer parte dessa experiência!
+            </p>
+            <a href="inscricao.html" class="botao">
+                QUERO PARTICIPAR
+            </a>
+        </div>
+    </section>
+
+    <section id="sobre" class="secao">
+        <h2>Sobre o Festival</h2>
+        <p>
+          O Nexus Summit é uma conferência fictícia dedicada a inteligência artificial, inovação tecnológica e o futuro da sociedade digital, criada para reunir líderes de tecnologia, pesquisadores, startups e criadores em um ambiente imersivo de debate e demonstrações práticas.
+        </p>
+
+        <div class="cards">
+            <article class="card">
+                <span>🎮</span>
+                <h3>Games</h3>
+                <p>Competições e partidas interativas.</p>
+            </article>
+
+            <article class="card">
+                <span>👾</span>
+                <h3>Cultura Geek</h3>
+                <p>Universo dos animes, filmes e quadrinhos.</p>
+            </article>
+
+            <article class="card">
+                <span>🤖</span>
+                <h3>Tecnologia</h3>
+                <p>Novidades e experiências tecnológicas.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="programacao" class="secao">
+        <h2>Programação do Evento</h2>
+        <p>Confira as atividades disponíveis no festival.</p>
+
+        <label for="filtro">Filtrar atividades:</label>
+        <select id="filtro">
+            <option value="todos">Todas as atividades</option>
+            <option value="games">Games</option>
+            <option value="cosplay">Cosplay</option>
+            <option value="tecnologia">Tecnologia</option>
+        </select>
+
+        <div class="tabela-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                        <th>Atividade</th>
+                    </tr>
+                </thead>
+
+                <tbody id="lista-atividades">
+                    <tr data-categoria="games">
+                        <td>Dia 1</td>
+                        <td>10h</td>
+                        <td>Abertura e campeonato de games</td>
+                    </tr>
+
+                    <tr data-categoria="cosplay">
+                        <td>Dia 1</td>
+                        <td>14h</td>
+                        <td>Desfile de cosplay</td>
+                    </tr>
+
+                    <tr data-categoria="tecnologia">
+                        <td>Dia 2</td>
+                        <td>11h</td>
+                        <td>Exposição de tecnologia</td>
+                    </tr>
+
+                    <tr data-categoria="games">
+                        <td>Dia 2</td>
+                        <td>16h</td>
+                        <td>Final do campeonato de games</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <p id="mensagem-filtro" aria-live="polite"></p>
+
+        <div class="centro">
+            <a href="inscricao.html" class="botao">
+                Demonstrar interesse
+            </a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 🎮Nexus Summit  – Projeto acadêmico fictício.</p>
+    <p>Desenvolvido pela nossa equipe.</p>
+</footer>
+
+</body>
+</html>

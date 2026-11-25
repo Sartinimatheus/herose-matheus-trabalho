@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Demonstre interesse nas atividades do Festival Pixel.">
+    <title>Participar | Festival Pixel</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">🎮 FESTIVAL PIXEL</a>
+        <div class="menu">
+            <a href="index.html">Início</a>
+            <a href="index.html#sobre">Sobre</a>
+            <a href="index.html#programacao">Programação</a>
+            <a href="inscricao.html">Participar</a>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="formulario-secao">
+        <div class="formulario-box">
+            <h1>Faça parte do Festival Pixel!</h1>
+
+            <p>
+                Preencha os campos abaixo para demonstrar
+                interesse nas atividades do evento.
+            </p>
+
+            <form id="form-interesse">
+
+                <label for="apelido">Seu apelido fictício:</label>
+                <input
+                    type="text"
+                    id="apelido"
+                    name="apelido"
+                    placeholder="Ex.: Gamer123"
+                    required
+                    maxlength="30"
+                >
+
+                <label for="atividade">Atividade preferida:</label>
+                <select id="atividade" name="atividade" required>
+                    <option value="">Selecione uma atividade</option>
+                    <option value="Campeonato de games">Games</option>
+                    <option value="Desfile de cosplay">Cosplay</option>
+                    <option value="Exposição de tecnologia">Tecnologia</option>
+                </select>
+
+                <label for="turno">Turno de preferência:</label>
+                <select id="turno" name="turno" required>
+                    <option value="">Selecione um turno</option>
+                    <option value="Manhã">Manhã</option>
+                    <option value="Tarde">Tarde</option>
+                </select>
+
+                <button type="submit" class="botao">
+                    ENVIAR INTERESSE
+                </button>
+            </form>
+
+            <div id="resultado" class="resultado" aria-live="polite"></div>
+
+            <p class="aviso">
+                Este formulário é apenas uma simulação acadêmica.
+                Nenhum dado será enviado ou armazenado.
+            </p>
+
+            <a href="index.html" class="voltar">
+                ← Voltar para a página inicial
+            </a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 🎮Nexus Summit  – Projeto acadêmico fictício.</p>
+</footer>
+
+</body>
+</html>
